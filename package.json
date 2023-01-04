@@ -1,0 +1,29 @@
+{
+  "name": "epmloyee-trackerx",
+  "version": "1.0.0",
+  "description": "A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch4r1i3/Epmloyee-TrackerX.git"
+  },
+  "keywords": [
+    "Employee",
+    "Tracker"
+  ],
+  "author": "Carlos Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ch4r1i3/Epmloyee-TrackerX/issues"
+  },
+  "homepage": "https://github.com/ch4r1i3/Epmloyee-TrackerX#readme",
+  "dependencies": {
+    "console-table": "^0.1.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
