@@ -1,0 +1,29 @@
+{
+  "name": "epmloyee-trackerx",
+  "version": "1.0.0",
+  "description": "This an app that manages company's employees and departments using Node.js, the Inquirer npm package, console.table, and a MySQL database. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch4r1i3/Epmloyee-TrackerX.git"
+  },
+  "keywords": [
+    "Employee",
+    "Tracker"
+  ],
+  "author": "Carlos Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ch4r1i3/Epmloyee-TrackerX/issues"
+  },
+  "homepage": "https://github.com/ch4r1i3/Epmloyee-TrackerX#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
